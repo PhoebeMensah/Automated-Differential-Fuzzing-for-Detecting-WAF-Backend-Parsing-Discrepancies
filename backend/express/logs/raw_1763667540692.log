@@ -1,0 +1,18 @@
+--- HEADERS ---
+host: bypass-waf.com
+x-real-ip: 172.19.0.5
+connection: close
+content-length: 115
+user-agent: Mozilla/5.0 (fuzzer) folded-part
+accept-encoding: gzip, deflate
+accept: */*
+x-test: one,two
+content-type: multipart/form-data;boundary=----aaaa----
+x-request-id: a570fa95-60ca-43f6-9988-4c17d321be96
+
+--- BODY ---
+------AaAa----
+Content-Disposition: form-data; name="field"
+
+FUZZ_ATTChK:1; DROP TABLE users
+------AaAa------

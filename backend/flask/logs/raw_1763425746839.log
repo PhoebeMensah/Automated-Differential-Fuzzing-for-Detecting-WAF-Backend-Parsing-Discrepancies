@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 31
+Content-Type: application/javascript
+X-Folded: start folded-value
+X-Request-Id: ae7edb47-a73b-4634-9f9c-710807911e07
+
+--- BODY ---
+{"field" "1; DROP TABE usersL"}

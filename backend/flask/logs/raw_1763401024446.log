@@ -1,0 +1,13 @@
+--- HEADERS ---
+Host: duplicate-host-header
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 30
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept-Encoding: gzip, deflate, zstd
+Accept: */*
+Content-Type: text/plain
+X-Request-Id: 5186ff2d-66ca-468e-a3ec-29937ea57e3a
+
+--- BODY ---
+123456789012345678901234567890

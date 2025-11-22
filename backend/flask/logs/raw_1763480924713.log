@@ -1,0 +1,16 @@
+--- HEADERS ---
+Host: bypass-waf.com
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 105
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept: application/xml
+Content-Type: multipart/form-data; boundary=----AaAa----
+X-Request-Id: 114fac69-7bf9-47b7-afb6-0ad111412a1f
+
+--- BODY ---
+------AaAa----
+Content-Disposition: form-da ta; name="field"
+
+1; DRŒOP TABLE users
+------AaAa------

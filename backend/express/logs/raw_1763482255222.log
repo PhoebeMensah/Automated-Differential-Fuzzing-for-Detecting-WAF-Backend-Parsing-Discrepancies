@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+accept: text/plain
+content-length: 65
+content-type: multipart/form-data; boundary=AaBbCc123
+x-request-id: 7691b88b-9283-4a8d-bda5-5dd0673f990f
+
+--- BODY ---
+{"field": "' UNION SELECÍT 1, version(), user() --" /*comment*/ }

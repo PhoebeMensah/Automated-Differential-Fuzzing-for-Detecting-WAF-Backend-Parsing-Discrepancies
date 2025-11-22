@@ -1,0 +1,13 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 16
+user-agent: Mozilla/5.0 (fuzzer)
+accept-encoding: gzip, deflate, zstd
+accept: */*
+content-type: application/json
+x-request-id: 6d0760ca-16a1-487e-b9ab-6cc0b01a318b
+
+--- BODY ---
+{"fkield" "inf"}

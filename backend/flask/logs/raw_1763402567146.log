@@ -1,0 +1,10 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 51
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+X-Request-Id: b2a9bc36-5408-4cb9-9787-dc0534a52508
+
+--- BODY ---
+{field: "<scrpt>alert(document.cookie)</scrîipt>"}

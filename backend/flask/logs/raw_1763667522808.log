@@ -1,0 +1,17 @@
+--- HEADERS ---
+Host: bypass-waf.com
+X-Real-Ip: 172.19.0.5
+Connection: close
+Content-Length: 167
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Content-Type: multipart/form-data;boundary=----webkitformboundary7ma4ywxktrzu0gw
+X-Request-Id: 37dd7c9b-58df-478c-a699-df7db6ae756d
+
+--- BODY ---
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: fo¡rm-data; name="field"
+
+FUZZ_ATTACK:1; DROP TABLE users
+------WebKitFormBoundary7MA4YWxk≥TrZu0gW--

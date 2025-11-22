@@ -1,0 +1,13 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 56
+user-agent: Mozilla/5.0 (fuzzer)
+accept-encoding: gzip, deflate, zstd
+accept: text/plain
+content-type: application/json
+x-request-id: 7a1633f2-418d-48eb-be34-4a1765a3d7fa
+
+--- BODY ---
+{"field": {"nested": "12345678901234567890123456789Ý0"}}

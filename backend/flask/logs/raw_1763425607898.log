@@ -1,0 +1,12 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com,duplicate-host-header
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer) folded-part
+Accept: */*
+X-Test: one,two
+Content-Length: 22
+Content-Type: application/javascript
+X-Request-Id: efdf97c2-8dc8-4358-8f67-d74e6ce12bd8
+
+--- BODY ---
+{field: "' OR '1'='1"}

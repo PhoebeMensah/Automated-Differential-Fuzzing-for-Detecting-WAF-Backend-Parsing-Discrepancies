@@ -1,0 +1,9 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer) folded-part
+Content-Length: 28
+X-Request-Id: 02f645c2-e5cb-4395-84e5-c5781fb5aac5
+
+--- BODY ---
+{"field": {"nested": false}}

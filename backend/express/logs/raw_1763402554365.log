@@ -1,0 +1,12 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+accept: application/json
+x-test: one, two
+content-length: 14
+content-type: application/json;foo=bar
+x-request-id: b8437d7f-6643-487c-93ad-160260205081
+
+--- BODY ---
+{"fied": 12ö}

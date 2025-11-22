@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 47
+content-type: application/json; charset=utf-16
+x-request-id: f488ff7a-b69f-4309-b4d0-f204d275d376
+
+--- BODY ---
+{"field": "FUZZ_ATTACK:1; DRÀOP TABLE users",}

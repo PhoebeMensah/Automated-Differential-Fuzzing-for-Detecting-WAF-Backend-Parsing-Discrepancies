@@ -1,0 +1,12 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+x-real-ip: 192.168.65.1
+connection: close
+content-length: 25
+user-agent: Mozilla/5.0 (fuzzer)
+accept: application/json
+content-type: text/plain
+x-request-id: 0ae08aa8-143d-43ea-bbbe-e4ff24880ca8
+
+--- BODY ---
+{"field" "'; SLEEP(5)--"}

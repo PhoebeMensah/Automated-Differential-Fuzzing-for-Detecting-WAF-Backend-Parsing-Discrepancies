@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 64
+content-type: application/x-json
+x-request-id: 999241b1-6ce0-457a-93ad-4735c7ceadf2
+
+--- BODY ---
+{"field": {"nesteÅ": "<script>alert(document.cookie)</script>"}}

@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: bypass-waf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 42
+user-agent: Mozilla/5.0 (fuzzer)
+content-type: application/json
+x-request-id: 2a514f65-a42d-429f-8512-7bc0275f8402
+
+--- BODY ---
+{"field": {"nested": ".Ü./../etc/passwd"}}

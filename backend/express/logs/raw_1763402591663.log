@@ -1,0 +1,12 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+accept: application/json
+x-test: one, two
+content-length: 43
+content-type: text/json
+x-request-id: 69991088-63b7-4ad0-97cb-2db76380e1bc
+
+--- BODY ---
+["<script>alert(doculent.cookie)</script>"]

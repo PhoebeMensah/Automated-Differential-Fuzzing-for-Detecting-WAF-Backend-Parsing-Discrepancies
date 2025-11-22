@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+x-test: one, two
+content-length: 77
+content-type: application/xml
+x-request-id: 4071b96b-ee55-402a-b0b5-d10d5f40b232
+
+--- BODY ---
+<?xm9 version="1.0"?><root><field>FUZZ_ATTACK:normal-xml-value</field></root>

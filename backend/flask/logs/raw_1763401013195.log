@@ -1,0 +1,12 @@
+--- HEADERS ---
+Host: duplicate-host-header
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 28
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept-Encoding: gzip, deflate, zstd
+Accept: */*
+X-Request-Id: 31a4b55f-2cf0-4287-bda4-226e743a90e5
+
+--- BODY ---
+{"field": {"nested": "inf"}}

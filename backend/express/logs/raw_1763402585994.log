@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+x-test: one, two
+content-length: 22
+content-type: application/x-json
+x-request-id: 4b7dc10d-c511-4684-b9f0-148aa97d3c47
+
+--- BODY ---
+["../../etc/tpasswd"]

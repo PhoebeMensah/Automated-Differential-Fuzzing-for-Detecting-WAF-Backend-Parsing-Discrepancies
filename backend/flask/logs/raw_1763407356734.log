@@ -1,0 +1,15 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com,duplicate-host-header
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 112
+Content-Type: multipart/form-data; boundary=----MALFORMED----
+
+--- BODY ---
+------MALFORMED----
+extra
+Conent-Disposition: form-data; name="field"
+
+False
+------MALFORMED----
+extra-°

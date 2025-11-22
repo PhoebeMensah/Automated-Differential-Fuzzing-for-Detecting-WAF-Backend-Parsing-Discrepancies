@@ -1,0 +1,10 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 20
+X-Folded: start folded-value
+X-Request-Id: 3f143744-9fdb-4ee4-8cd5-74e4eac4c76e
+
+--- BODY ---
+{field: admin' W--"}

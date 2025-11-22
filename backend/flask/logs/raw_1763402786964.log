@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer) folded-part
+Accept: application/json
+Content-Length: 23
+Content-Type: multipart/form-data; boundary=boundary123
+X-Request-Id: 179eac35-281b-4a08-a161-762c933d9d48
+
+--- BODY ---
+{field: "\u0000\u00ff"}

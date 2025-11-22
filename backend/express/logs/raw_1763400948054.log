@@ -1,0 +1,13 @@
+--- HEADERS ---
+host: duplicate-host-header
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 2
+user-agent: Mozilla/5.0 (fuzzer)
+accept-encoding: gzip, deflate, zstd
+accept: */*
+content-type: application/json
+x-request-id: c7223b47-489c-417f-b441-3b972bdeb1fc
+
+--- BODY ---
+{}

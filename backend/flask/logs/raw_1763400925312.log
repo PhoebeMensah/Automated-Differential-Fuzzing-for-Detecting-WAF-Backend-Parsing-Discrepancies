@@ -1,0 +1,13 @@
+--- HEADERS ---
+Host: duplicate-host-header
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 24
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept-Encoding: gzip, deflate, zstd
+Accept: text/plain
+Content-Type: application/x-www-form-urlencoded
+X-Request-Id: 5e5d72ff-6aa3-4022-a689-c55432bb0999
+
+--- BODY ---
+{"f‡eld" "\u0000\u0ff"}

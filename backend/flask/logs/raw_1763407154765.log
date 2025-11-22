@@ -1,0 +1,12 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept: application/json
+X-Test: one,two
+Content-Length: 39
+Content-Type: multipart/form-data; boundary=boundary123
+X-Request-Id: a38c5e32-a96e-4b9a-8806-0cfb322f8fed
+
+--- BODY ---
+{"field": "normal-value" /*¿Nomment*/ }

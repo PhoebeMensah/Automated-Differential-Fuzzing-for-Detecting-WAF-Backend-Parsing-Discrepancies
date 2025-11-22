@@ -1,0 +1,12 @@
+--- HEADERS ---
+host: bypass-waf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 28
+user-agent: Mozilla/5.0 (fuzzer)
+accept: application/xml
+content-type: multipart/form-data; boundary=boundary123
+x-request-id: 8b24c240-7da7-435e-8f08-e54e1fda4267
+
+--- BODY ---
+{"field" "FUZZ_ATTACKq:inf"}

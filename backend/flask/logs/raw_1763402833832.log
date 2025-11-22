@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer) folded-part
+Accept: */*
+Content-Length: 30
+Content-Type: multipart/form-data; boundary=boundary123
+X-Request-Id: e1938aab-7b33-46d7-80f2-62aca683dc4b
+
+--- BODY ---
+{Ñield: "1; DROP TABLE users"}

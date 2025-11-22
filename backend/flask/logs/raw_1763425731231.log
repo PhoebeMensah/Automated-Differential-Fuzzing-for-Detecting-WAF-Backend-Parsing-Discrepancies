@@ -1,0 +1,15 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com,duplicate-host-header
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 120
+X-Request-Id: 766270ab-4a2d-4ba3-aeb6-2cdf5a4207f0
+
+--- BODY ---
+------MALFORMED----´
+extra
+Cntent-Disposition: form-data; name="field"
+
+normal-value
+------MALFORMED----
+extra--

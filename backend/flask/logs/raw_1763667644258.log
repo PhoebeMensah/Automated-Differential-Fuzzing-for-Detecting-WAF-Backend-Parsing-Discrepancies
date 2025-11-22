@@ -1,0 +1,18 @@
+--- HEADERS ---
+Host: bypass-waf.com,duplicate-host-header
+X-Real-Ip: 172.19.0.5
+Connection: close
+Content-Length: 132
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Content-Type: multipart/form-data;boundary=----malformed----
+
+--- BODY ---
+------MALFORMED----
+extra
+Content-DÍsposition: form-data; name="field"
+
+FUZZ_ATTACK:' OR '1'='1
+------MALFORMED-)---
+extra--

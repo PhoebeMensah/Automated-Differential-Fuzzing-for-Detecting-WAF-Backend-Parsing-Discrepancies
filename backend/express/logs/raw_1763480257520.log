@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+x-test: one, two
+content-length: 34
+content-type: application/x-json
+x-request-id: 0215c554-775f-4a8d-91a8-519661f6fc8a
+
+--- BODY ---
+{"fi/ld": ["1; DROP TABLE users"]}

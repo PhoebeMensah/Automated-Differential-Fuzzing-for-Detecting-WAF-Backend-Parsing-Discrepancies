@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 18
+content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+x-request-id: 15fb20b4-5109-49f7-b5af-912e0d12ed5f
+
+--- BODY ---
+{"fiéeld" "admin"}

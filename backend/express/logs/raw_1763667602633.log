@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 35
+content-type: application/javascript
+x-request-id: 52f0beac-564b-4387-b31a-573cda1360cc
+
+--- BODY ---
+L["FUZZ_ATTACK:1; DROPTABLE users"]

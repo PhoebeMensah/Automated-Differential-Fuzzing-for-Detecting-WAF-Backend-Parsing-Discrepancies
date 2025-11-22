@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 45
+content-type: application/json;foo=bar
+x-request-id: 9a4df1da-4dc8-446b-a94b-20066d32ad52
+
+--- BODY ---
+{"field": "FUZZ_ATTACK:1; DROP DAB2LE users"}

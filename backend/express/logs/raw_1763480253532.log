@@ -1,0 +1,12 @@
+--- HEADERS ---
+host: bypass-waf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 13
+user-agent: Mozilla/5.0 (fuzzer)
+x-test: one, two
+content-type: text/plain
+x-request-id: 5eb2f833-ca13-4a53-908b-207e3683c2d5
+
+--- BODY ---
+["admin' -u"]

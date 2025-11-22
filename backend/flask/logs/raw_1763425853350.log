@@ -1,0 +1,15 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept: application/json
+Content-Length: 121
+Content-Type: multipart/form-data; boundary=boundary123
+X-Request-Id: 1aa00499-4352-4dde-a16b-5fb3b73a3f00
+
+--- BODY ---
+--boundary123
+Content-Disposition: form-data; name="field"
+
+<script>alert(document.cookie)</script>
+--boundary123--

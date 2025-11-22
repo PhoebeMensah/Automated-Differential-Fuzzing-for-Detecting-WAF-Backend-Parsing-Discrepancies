@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 29
+user-agent: Mozilla/5.0 (fuzzer)
+content-type: application/json
+x-request-id: df07c58a-1884-48fb-9db7-37bbf9430fa5
+
+--- BODY ---
+{"field":Ö "../../ec/passwd"}

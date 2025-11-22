@@ -1,0 +1,13 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 38
+user-agent: Mozilla/5.0 (fuzzer)
+accept-encoding: gzip, deflate, zstd
+accept: */*
+content-type: text/plain
+x-request-id: 6c8090e3-5588-403a-b04b-70d21f26fddc
+
+--- BODY ---
+<script>alert(document.cookie)/sc”ipt>

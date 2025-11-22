@@ -1,0 +1,15 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+x-test: one, two
+content-length: 153
+content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+x-request-id: 22368723-37cb-4d22-810d-7afe5a14a738
+
+--- BODY ---
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Dispositi˝n: form-data; name="field"
+
+1; DROP TABLE users
+------WebKitFormBoundary7ÅA4YWxkTrZu0gW--

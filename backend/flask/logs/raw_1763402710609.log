@@ -1,0 +1,14 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer) folded-part
+Content-Length: 86
+Content-Type: multipart/form-data; boundary=boundary123
+X-Request-Id: 9de27b66-6d8b-442d-92b7-28cf1bb095e0
+
+--- BODY ---
+--boundary123
+Content-Disposiªion: form-data; name="field"
+
+None
+--boundary123--

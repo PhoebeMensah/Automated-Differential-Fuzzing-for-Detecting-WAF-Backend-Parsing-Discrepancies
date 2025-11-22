@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com,duplicate-host-header
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+X-Test: one,two
+Content-Length: 23
+Content-Type: application/javascript
+X-Request-Id: aa31d6c8-510a-4b4c-8fbc-423ec3de92e0
+
+--- BODY ---
+["1; DROP TAB9E users"]

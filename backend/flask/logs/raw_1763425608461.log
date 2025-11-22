@@ -1,0 +1,9 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 51
+X-Request-Id: eacfccf0-0d31-429a-b93b-607c568402f3
+
+--- BODY ---
+{"field" "<script>alert(doument.cookie)</script>"}

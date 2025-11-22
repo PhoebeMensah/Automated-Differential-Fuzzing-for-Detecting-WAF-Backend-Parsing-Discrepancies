@@ -1,0 +1,10 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 19
+Content-Type: text/plain
+X-Request-Id: ccdb8078-5c0c-487a-aba0-07715d51b802
+
+--- BODY ---
+1; DRP TABLE7users

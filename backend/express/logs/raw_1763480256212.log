@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 2
+content-type: multipart/form-data; boundary=----AaAa----
+x-request-id: b856d2dc-f194-42fa-ad0a-5aa3f9fe6fb0
+
+--- BODY ---
+{}

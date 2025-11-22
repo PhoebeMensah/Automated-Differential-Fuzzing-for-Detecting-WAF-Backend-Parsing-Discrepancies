@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 37
+content-type: multipart/form-data; boundary=AaBbCc123
+x-request-id: ef4efb64-afca-4e43-87a8-0c97fc806553
+
+--- BODY ---
+{"field": "' OR 1=1 --" *comment*/ }

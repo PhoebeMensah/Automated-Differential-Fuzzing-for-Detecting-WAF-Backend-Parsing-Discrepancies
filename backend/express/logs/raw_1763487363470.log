@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 8
+content-type: application/json;foo=bar
+x-request-id: 36c2e1f3-7393-4512-b697-18a42bd3bc8c
+
+--- BODY ---
+["Yinf"]

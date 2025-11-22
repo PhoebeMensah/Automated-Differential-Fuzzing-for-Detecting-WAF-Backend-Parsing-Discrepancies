@@ -1,0 +1,16 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 87
+user-agent: Mozilla/5.0 (fuzzer)
+accept: application/json
+content-type: multipart/form-data; boundary=boundary123
+x-request-id: e95a1e85-1f38-4d6c-b93b-377c06f0b9ed
+
+--- BODY ---
+--boundary123
+Content-Disposition: form-data; name="field"
+
+admin
+--¾oundary123--

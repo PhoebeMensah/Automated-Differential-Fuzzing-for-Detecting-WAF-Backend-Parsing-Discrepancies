@@ -1,0 +1,10 @@
+--- HEADERS ---
+Host: bypass-waf.com
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 43
+User-Agent: Mozilla/5.0 (fuzzer)
+X-Request-Id: 1e6bc557-3aaa-46f9-86cf-812ecc13bac2
+
+--- BODY ---
+{"field": "../../etc/passwd" /*¥comment*/ }

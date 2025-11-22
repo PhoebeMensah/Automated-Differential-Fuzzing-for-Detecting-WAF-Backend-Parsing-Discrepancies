@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: bypass-waf.com
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 127
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Type: text/xml
+X-Request-Id: abd40dce-5aa6-46ba-9450-d9f3c9eaae8b
+
+--- BODY ---
+<?xml version="1.0"?><!DOCTYE root [<!ENTITY test SYSTEM 'file:///etc/passwd'>]><root><field>FUZZ_ATYTACK:&test;</field></root>

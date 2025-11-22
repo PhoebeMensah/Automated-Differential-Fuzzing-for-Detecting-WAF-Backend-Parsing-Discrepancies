@@ -1,0 +1,10 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer) folded-part
+Content-Length: 48
+Content-Type: application/json; charset=utf-16
+X-Request-Id: 16b6e7bb-13c7-4a0e-8229-2d002f6aa1ff
+
+--- BODY ---
+{"field": "\d83d\udea8\ud83d\udd25" /*coment*/ }

@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 18
+content-type: application/javascript
+x-request-id: 3afe0e8b-7fde-46e5-818b-ec2487da2b79
+
+--- BODY ---
+1; DROPTABLE users

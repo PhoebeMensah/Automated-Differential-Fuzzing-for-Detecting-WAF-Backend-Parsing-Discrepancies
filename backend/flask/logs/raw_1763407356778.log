@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com,duplicate-host-header
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept: application/json
+Content-Length: 9
+Content-Type: application/javascript
+X-Request-Id: 367ca533-6e93-4dce-b487-53d438c47270
+
+--- BODY ---
+🚖�🔥

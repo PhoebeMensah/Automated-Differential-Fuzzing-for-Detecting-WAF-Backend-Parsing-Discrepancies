@@ -1,0 +1,14 @@
+--- HEADERS ---
+Host: localhost
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 17
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.49.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 53153be7-1808-4474-8570-4e1ae710c3fc
+Accept-Encoding: gzip, deflate, br
+
+--- BODY ---
+{"field":"admin"}

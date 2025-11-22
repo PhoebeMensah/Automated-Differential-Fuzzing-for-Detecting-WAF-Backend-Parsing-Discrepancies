@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: bypass-waf.com
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 49
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Type: multipart/form-data; boundary=boundary123
+X-Request-Id: db0e47cd-1d6c-4028-806a-247e20d4b253
+
+--- BODY ---
+{field: "' UNION SELECT 1, version(), user()Å -"}

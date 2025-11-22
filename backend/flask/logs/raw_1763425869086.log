@@ -1,0 +1,9 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 27
+Content-Type: multipart/form-data; boundary=----MALFORMED----
+
+--- BODY ---
+{"field": "' OR 1=Ì1 --",}

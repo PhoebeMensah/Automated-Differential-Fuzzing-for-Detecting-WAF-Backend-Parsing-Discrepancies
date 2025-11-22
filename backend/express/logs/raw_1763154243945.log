@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: localhost
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 38
+user-agent: python-requests/2.32.5
+accept-encoding: gzip, deflate, zstd
+accept: */*
+
+--- BODY ---
+[object Object]

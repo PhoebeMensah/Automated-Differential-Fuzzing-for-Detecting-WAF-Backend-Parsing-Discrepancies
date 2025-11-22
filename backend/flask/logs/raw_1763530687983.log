@@ -1,0 +1,12 @@
+--- HEADERS ---
+Host: bypass-waf.com
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 65
+User-Agent: Mozilla/5.0 (fuzzer)
+X-Test: one,two
+Content-Type: application/json
+X-Request-Id: 98f35078-728a-4222-be85-6d41e1476550
+
+--- BODY ---
+{"field": "FZZ_ATTACK:<script>alert(document.cookie)</script>",}

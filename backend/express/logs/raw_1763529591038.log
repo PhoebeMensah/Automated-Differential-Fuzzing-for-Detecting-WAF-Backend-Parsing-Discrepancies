@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 29
+content-type: application/javascript
+x-request-id: f176a76a-e285-40de-99c0-bfc6944afd86
+
+--- BODY ---
+FUZZ_ATTACK:1; DROP BLE users

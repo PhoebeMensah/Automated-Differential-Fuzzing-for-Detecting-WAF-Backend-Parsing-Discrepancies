@@ -1,0 +1,12 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com,duplicate-host-header
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept: */*
+Content-Length: 3
+Content-Type: application/x-www-form-urlencoded
+X-Folded: start folded-value
+X-Request-Id: 2fb3a52a-b9ab-4bf3-9f16-785e7986e7b2
+
+--- BODY ---
+{<´

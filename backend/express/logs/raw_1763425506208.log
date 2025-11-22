@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 16
+content-type: text/plain
+x-request-id: 91d21c1d-0565-4592-91e3-700ef1a1ab03
+
+--- BODY ---
+L["' OR 1=1 --"]

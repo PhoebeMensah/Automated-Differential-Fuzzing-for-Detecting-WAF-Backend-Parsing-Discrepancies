@@ -1,0 +1,10 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+X-Real-Ip: 192.168.65.1
+Connection: close
+Content-Length: 42
+User-Agent: Mozilla/5.0 (fuzzer)
+X-Request-Id: 72374b3a-11fb-4475-a417-31ac9b3bf45d
+
+--- BODY ---
+["<script>aert(document.cookie)</script>"]

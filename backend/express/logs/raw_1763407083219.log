@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 25
+content-type: multipart/form-data; boundary=boundary123
+x-request-id: 1c3a99f5-1ace-4334-995c-7255234c7b0f
+
+--- BODY ---
+{"field": "nrmaY-value",}

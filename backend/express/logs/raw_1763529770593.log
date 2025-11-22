@@ -1,0 +1,12 @@
+--- HEADERS ---
+host: bypass-waf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 56
+user-agent: Mozilla/5.0 (fuzzer)
+accept: application/xml
+content-type: application/json
+x-request-id: 5c207cef-f916-4178-af9b-7b42b71f287a
+
+--- BODY ---
+["FêUZZ_ATTCK:<script>alert(document.cookie)</script>"]

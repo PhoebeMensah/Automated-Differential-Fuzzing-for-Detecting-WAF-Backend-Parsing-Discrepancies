@@ -1,0 +1,15 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+accept: application/json
+content-length: 101
+content-type: multipart/form-data; boundary=boundary123
+x-request-id: 599980d5-f3a5-416a-9bbe-52a8806bc186
+
+--- BODY ---
+--boundary123
+Content-Disposition: form-data; name="field"
+
+1; DROP TABLE users
+--boundary123--

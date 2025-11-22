@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer) folded-part
+X-Test: one,two
+Content-Length: 16
+Content-Type: application/json;foo=bar
+X-Request-Id: 98660d26-bcc8-4489-b963-3b842a588291
+
+--- BODY ---
+["'; SûEEP(5--"]

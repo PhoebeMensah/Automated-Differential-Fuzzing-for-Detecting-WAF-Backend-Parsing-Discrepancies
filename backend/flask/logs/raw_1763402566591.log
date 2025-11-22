@@ -1,0 +1,16 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 124
+User-Agent: Mozilla/5.0 (fuzzer)
+X-Request-Id: fd0de691-06c9-4952-9d7b-8b334ec8f5e0
+
+--- BODY ---
+------MALFORMED----
+extra
+Content-Disposition: form-data; name="field"
+
+../../etc/passwd
+------MALFORMED----
+extra--

@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+x-test: one, two
+content-length: 55
+content-type: application/json; charset=utf-16
+x-request-id: 516a3aa9-823e-429a-be57-50ac72fb265b
+
+--- BODY ---
+{"field": {"nested": Ó"12345789012345678901234567890"}}

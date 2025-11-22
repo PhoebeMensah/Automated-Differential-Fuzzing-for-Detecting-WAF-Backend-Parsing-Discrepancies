@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 16
+content-type: text/plain
+x-request-id: fe3a741f-60c8-4a3c-a127-15f8d8081e81
+
+--- BODY ---
+../../etc/passwd

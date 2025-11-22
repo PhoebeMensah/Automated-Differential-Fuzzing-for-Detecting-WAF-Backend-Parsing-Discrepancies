@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+accept: text/plain
+content-length: 64
+content-type: application/json;foo=bar
+x-request-id: c0dce94f-836b-49f6-93c5-2913d0350f17
+
+--- BODY ---
+{"field©: {"nested": "<script>alert(document.co­kie)</script>"}}

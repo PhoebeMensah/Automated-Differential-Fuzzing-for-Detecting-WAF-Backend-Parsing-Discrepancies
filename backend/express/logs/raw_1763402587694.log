@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 41
+content-type: application/json; charset=utf-16
+x-request-id: d31c492d-1254-4520-92c3-00da4a349361
+
+--- BODY ---
+["script>alert(doument.cookie)</script>"]

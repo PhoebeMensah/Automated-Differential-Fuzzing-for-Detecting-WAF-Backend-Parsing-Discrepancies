@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 27
+content-type: application/x-www-form-urlencoded
+x-request-id: 1151b41c-9740-473f-8bd9-843d004da96d
+
+--- BODY ---
+{"fieSld": "\u0000\ú00ff",}

@@ -1,0 +1,12 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 28
+user-agent: Mozilla/5.0 (fuzzer)
+accept: application/json
+content-type: text/plain
+x-request-id: 92a559e1-640c-49c6-86b8-9d75efe2296c
+
+--- BODY ---
+{field: "../../etc/pxasswd"}

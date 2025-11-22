@@ -1,0 +1,13 @@
+--- HEADERS ---
+Host: bypass-waf.com,duplicate-host-header
+X-Real-Ip: 172.19.0.5
+Connection: close
+Content-Length: 42
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Content-Type: application/json
+X-Request-Id: 82b468cb-b5e2-438e-b72b-f77973e69e13
+
+--- BODY ---
+{"field" "FUZZ_ATTACK:1; DROP TABLE user"}

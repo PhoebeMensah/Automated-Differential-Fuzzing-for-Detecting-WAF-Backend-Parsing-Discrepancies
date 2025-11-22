@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+x-test: one, two
+content-length: 65
+content-type: application/json;foo=bar
+x-request-id: 0e106e9e-8f1a-4d3e-811f-0e0de68ab38a
+
+--- BODY ---
+{"field": {"nested": "<script>alert(document.cookÄie)</script>"}}

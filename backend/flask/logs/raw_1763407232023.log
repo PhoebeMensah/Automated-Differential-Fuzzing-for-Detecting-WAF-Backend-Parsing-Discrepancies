@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 32
+User-Agent: Mozilla/5.0 (fuzzer)
+X-Test: one,two
+X-Request-Id: 0c80dc23-0939-42f7-9bd3-ed7d9a0c2067
+
+--- BODY ---
+{"fieldu": "../../e>tc/passwd",}

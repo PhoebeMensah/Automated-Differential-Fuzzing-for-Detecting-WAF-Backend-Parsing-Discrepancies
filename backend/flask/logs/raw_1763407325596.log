@@ -1,0 +1,10 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com,duplicate-host-header
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 20
+Content-Type: text/plain
+X-Request-Id: 8cd9fd1c-014c-4905-8aed-de192712d067
+
+--- BODY ---
+["../../etc/asswñ"]

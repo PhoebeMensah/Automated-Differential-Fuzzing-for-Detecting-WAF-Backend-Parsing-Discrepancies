@@ -1,0 +1,10 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer) folded-part
+Content-Length: 14
+Content-Type: text/json
+X-Request-Id: a75f56f0-9340-4e68-bbba-a77e48adf7ab
+
+--- BODY ---
+{"field": tqe}

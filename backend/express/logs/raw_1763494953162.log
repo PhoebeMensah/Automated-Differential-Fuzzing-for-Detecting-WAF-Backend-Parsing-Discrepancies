@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 58
+content-type: text/xml
+x-request-id: e931140f-22eb-48a7-9cfb-6c3edb6a9899
+
+--- BODY ---
+<root><field>FUZZ_ATTACK:1; DRP TABLE users</field></root>

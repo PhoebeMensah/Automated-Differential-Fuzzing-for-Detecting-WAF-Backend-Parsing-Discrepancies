@@ -1,0 +1,12 @@
+--- HEADERS ---
+Host: bypass-waf.com
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 45
+User-Agent: Mozilla/5.0 (fuzzer)
+X-Test: one,two
+Content-Type: multipart/form-data; boundary=boundary123
+X-Request-Id: 1af670f8-68fd-4d42-815e-1af276301019
+
+--- BODY ---
+{"field" "FUZZ_ATTA¼CKU:1; DROP TABLE users"}

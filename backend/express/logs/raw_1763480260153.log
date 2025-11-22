@@ -1,0 +1,16 @@
+--- HEADERS ---
+host: bypass-waf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 174
+user-agent: Mozilla/5.0 (fuzzer)
+x-test: one, two
+content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+x-request-id: 1061baf6-8e70-4a5d-ac92-0a115f3fe2f4
+
+--- BODY ---
+------WebKitFormBoundary7M¼A4YWxkTrZu0gW
+Content-Disposition: form-data; name="field"
+
+<script>alert(document.cookie)</script>
+------WebKitFormBoundary7MA4YWxkTrZu0gW--

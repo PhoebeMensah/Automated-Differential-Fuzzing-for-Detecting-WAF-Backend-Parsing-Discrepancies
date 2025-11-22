@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+X-Test: one,two
+Content-Length: 18
+Content-Type: */*
+X-Request-Id: bb2d5d54-db77-4469-a950-abae61d795b6
+
+--- BODY ---
+1; DROP TABLE uers

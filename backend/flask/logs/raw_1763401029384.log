@@ -1,0 +1,13 @@
+--- HEADERS ---
+Host: duplicate-host-header
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 20
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept-Encoding: gzip, deflate, zstd
+Accept: */*
+Content-Type: text/plain
+X-Request-Id: 1fad0dea-adc7-439f-9fd0-0fae4b7e0e91
+
+--- BODY ---
+["../../etc/passwd"]

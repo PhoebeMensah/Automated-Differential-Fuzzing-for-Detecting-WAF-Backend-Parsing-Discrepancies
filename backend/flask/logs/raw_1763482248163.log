@@ -1,0 +1,12 @@
+--- HEADERS ---
+Host: bypass-waf.com
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 67
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept: application/json
+Content-Type: text/xml
+X-Request-Id: ecc6cfde-c87e-4a3b-80d8-fd7a9948ba8d
+
+--- BODY ---
+<?xml version='1.0'?><root><field>1; DRP TABLE u¯ers</field></root>

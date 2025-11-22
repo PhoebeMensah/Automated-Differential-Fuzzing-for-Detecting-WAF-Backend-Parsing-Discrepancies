@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 34
+content-type: application/json
+x-request-id: dd70941b-f067-42f3-92d6-f10c65d26a97
+
+--- BODY ---
+{"field": ["1; DROP ÂABLE Èsers"]}

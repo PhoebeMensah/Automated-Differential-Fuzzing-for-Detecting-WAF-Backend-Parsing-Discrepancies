@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 65
+content-type: multipart/form-data; boundary=----AaAa----
+x-request-id: c5eea1d4-8e50-4998-a439-f0ee74a0eb9f
+
+--- BODY ---
+{"field": "<script>alert(document.cookie)</script>" /*comment*/ }

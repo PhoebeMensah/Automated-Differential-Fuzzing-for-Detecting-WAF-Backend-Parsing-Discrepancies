@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+x-test: one, two
+content-length: 50
+content-type: text/json
+x-request-id: 6418e801-0189-47ef-9185-ec8dd0f46427
+
+--- BODY ---
+{"field" "' UNION SELECT 1, version(), user() --"}

@@ -1,0 +1,10 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 52
+Content-Type: */*
+X-Request-Id: 5a3e8d0c-8d13-4cd8-bdec-2fc3681546f3
+
+--- BODY ---
+{"field" "<script>aleryt(document.cookie)</script>"}

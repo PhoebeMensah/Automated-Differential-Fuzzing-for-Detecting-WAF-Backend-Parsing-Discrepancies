@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+x-test: one, two
+content-length: 66
+content-type: application/json;foo=bar
+x-request-id: b92ef69c-3aa4-4cd2-a0df-f166d64571ce
+
+--- BODY ---
+{"field": "<script>alert(document.cookie)</scrip~t>" /*comment*/ }

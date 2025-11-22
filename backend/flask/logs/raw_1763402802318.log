@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept: application/json
+Content-Length: 31
+Content-Type: text/json
+X-Request-Id: 98f355fe-4381-4e3c-9e5a-419da0f0fea9
+
+--- BODY ---
+{"field": ["../../etc/passwd"]}

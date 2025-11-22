@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+accept: text/plain
+content-length: 12
+content-type: application/javascript
+x-request-id: 60904151-c4bd-45bf-be60-b63e399a4887
+
+--- BODY ---
+normal-valfe

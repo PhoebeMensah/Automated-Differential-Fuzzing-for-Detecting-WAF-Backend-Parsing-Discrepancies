@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: bypass-waf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 59
+user-agent: Mozilla/5.0 (fuzzer)
+content-type: application/soap+xml
+x-request-id: d9b52799-6ceb-47f9-ac24-c30c9c56220d
+
+--- BODY ---
+<root><field>FUZZ_ATTACK:1; DROP TABLE users</field></root>

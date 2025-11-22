@@ -1,0 +1,18 @@
+--- HEADERS ---
+Host: bypass-waf.com,duplicate-host-header
+X-Real-Ip: 172.19.0.5
+Connection: close
+Content-Length: 115
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept-Encoding: gzip, deflate
+Accept: */*
+X-Test: one,two
+Content-Type: multipart/form-data;boundary=----aaaa----
+X-Request-Id: 73af3246-a099-4b90-b2a0-24dd0e9e5c9a
+
+--- BODY ---
+------AaAa----
+Content-Disposition: form-data; name="field"
+
+FUZZ_ATTACK:1 DROP TABLE u√sers
+------AaAa------

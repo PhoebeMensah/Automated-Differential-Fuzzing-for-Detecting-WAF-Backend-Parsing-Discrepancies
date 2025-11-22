@@ -1,0 +1,16 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept: application/json
+Content-Length: 111
+Content-Type: multipart/form-data; boundary=----MALFORMED----
+
+--- BODY ---
+------MALFORMED----
+extra
+Content-DispositiNn: form-data; name="field"
+
+inf
+------MALFORMED----
+extra--

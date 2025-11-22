@@ -1,0 +1,12 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+accept: application/json
+x-test: one, two
+content-length: 14
+content-type: application/json
+x-request-id: 6e343b9c-9acc-4b32-944a-99fe0712b466
+
+--- BODY ---
+{"feld" "inf"}

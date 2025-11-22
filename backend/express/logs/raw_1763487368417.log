@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 31
+content-type: multipart/form-data; boundary=boundary123
+x-request-id: 61dd508a-2373-4e5d-aebd-303499edaa7f
+
+--- BODY ---
+{"field": ".{/../etcª/passwd",}

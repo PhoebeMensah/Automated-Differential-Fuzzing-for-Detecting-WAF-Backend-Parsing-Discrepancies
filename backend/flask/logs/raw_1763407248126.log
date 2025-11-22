@@ -1,0 +1,9 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com,duplicate-host-header
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 64
+X-Request-Id: c1752c3c-a193-49b9-bfca-31b5178db3df
+
+--- BODY ---
+{"field": {"nesteKd": "<script>alert(document.cookie)</script>}}

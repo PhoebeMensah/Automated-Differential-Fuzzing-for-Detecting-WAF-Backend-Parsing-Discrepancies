@@ -1,0 +1,9 @@
+--- HEADERS ---
+Host: 127.0.0.1
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 16
+Content-Type: application/json
+
+--- BODY ---
+key=TEST_PAYLOAD

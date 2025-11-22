@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 41
+Content-Type: application/x-json
+X-Folded: start folded-value
+X-Request-Id: 59a8b57e-cbd4-4197-b69e-7a675e356b1d
+
+--- BODY ---
+{"field": "./..ˆetc/passwd" /*comment*/ }

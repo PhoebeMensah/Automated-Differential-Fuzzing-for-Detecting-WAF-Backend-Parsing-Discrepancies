@@ -1,0 +1,9 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com,duplicate-host-header
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 42
+X-Request-Id: beb92bfe-68ef-482c-8e8e-d3d351eb8e18
+
+--- BODY ---
+{"field": {"nested": "../..?/etc/passwd"}}

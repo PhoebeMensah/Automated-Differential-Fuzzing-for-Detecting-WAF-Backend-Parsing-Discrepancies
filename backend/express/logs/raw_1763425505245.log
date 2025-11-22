@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 25
+content-type: text/json
+x-request-id: 6243197f-ec39-4e82-8b89-12206ef1d0fc
+
+--- BODY ---
+{"field": "norml-value",}

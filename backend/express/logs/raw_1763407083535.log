@@ -1,0 +1,12 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 18
+user-agent: Mozilla/5.0 (fuzzer)
+x-test: one, two
+content-type: multipart/form-data; boundary=AaBbCc123
+x-request-id: dd65e010-2b11-4cfe-9f74-bdba39ce30a1
+
+--- BODY ---
+{"fielnd": "inf¿,}

@@ -1,0 +1,12 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+accept: text/plain
+x-test: one, two
+content-length: 51
+content-type: application/x-www-form-urlencoded
+x-request-id: caf87d6f-3a7f-4092-b113-61aa4b9d9980
+
+--- BODY ---
+{"field": "' UNION SELECT 1, version(), uer() --",}

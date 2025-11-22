@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer) folded-part
+Content-Length: 21
+Content-Type: application/javascript
+X-Folded: start folded-value
+X-Request-Id: 22fb680e-8dab-4be7-a54c-abdc3b1c0476
+
+--- BODY ---
+{"field" "' OR 11/*"}

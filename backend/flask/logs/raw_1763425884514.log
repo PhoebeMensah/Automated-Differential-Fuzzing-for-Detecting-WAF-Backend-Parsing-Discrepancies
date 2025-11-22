@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com,duplicate-host-header
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer) folded-part
+Accept: application/json
+Content-Length: 51
+Content-Type: text/json
+X-Request-Id: 84eff673-e2e8-4c67-91ca-f52242a84157
+
+--- BODY ---
+"field": "<script>alert(documnt.cookie)</script>"}

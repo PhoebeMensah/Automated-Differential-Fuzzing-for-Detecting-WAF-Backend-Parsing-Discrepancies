@@ -1,0 +1,13 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+X-Real-Ip: 192.168.65.1
+Connection: close
+Content-Length: 30
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept: */*
+Content-Type: multipart/form-data; boundary=----MALFORMED----
+Extra: 
+X-Request-Id: 6fea9785-85be-4c4a-a0fc-78b08d07d458
+
+--- BODY ---
+{field: "1; DROP TABLE users"}

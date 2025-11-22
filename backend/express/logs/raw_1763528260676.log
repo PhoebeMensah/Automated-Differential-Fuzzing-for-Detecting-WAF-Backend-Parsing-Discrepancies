@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+accept: application/xml
+content-length: 45
+content-type: application/x-www-form-urlencoded
+x-request-id: c7e0b45a-0a70-4f80-b29b-d5abe416c329
+
+--- BODY ---
+{"field": "FUZZ_ATTACK:admin" /*cNomment–*/ }

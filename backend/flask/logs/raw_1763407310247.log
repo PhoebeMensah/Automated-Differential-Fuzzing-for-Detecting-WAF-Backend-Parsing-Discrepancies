@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 24
+Content-Type: text/json
+X-Folded: start folded-value
+X-Request-Id: 0b4794af-beb6-42aa-8849-66f74c2b56b4
+
+--- BODY ---
+["1; DROP TAèBLE usºrs"]

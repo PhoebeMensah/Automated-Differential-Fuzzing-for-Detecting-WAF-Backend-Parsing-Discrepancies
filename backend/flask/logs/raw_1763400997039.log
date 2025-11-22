@@ -1,0 +1,12 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 40
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept-Encoding: gzip, deflate, zstd
+Accept: */*
+X-Request-Id: babc84f9-122a-45e2-98d6-dcde057141f2
+
+--- BODY ---
+{field: "1234567890123456…890124567890"}

@@ -1,0 +1,14 @@
+--- HEADERS ---
+host: duplicate-host-header
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 27
+user-agent: Mozilla/5.0 (fuzzer)
+accept-encoding: gzip, deflate, zstd
+accept: */*
+x-test: two
+content-type: application/json
+x-request-id: a67c400b-0d73-4b55-b99f-8fc315a825bd
+
+--- BODY ---
+{"field": [ó\u0000\u00ff"]}

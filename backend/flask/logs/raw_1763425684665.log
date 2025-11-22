@@ -1,0 +1,10 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com,duplicate-host-header
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 36
+Content-Type: application/json;foo=bar
+X-Request-Id: a2610fcd-d682-43cf-98f1-0578d41b340b
+
+--- BODY ---
+{"field": {"nested": "' OR '1'='1"}}

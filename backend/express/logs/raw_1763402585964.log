@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 37
+content-type: application/x-json
+x-request-id: 21c5764e-0d0a-41f7-a8a6-51c50e7b665f
+
+--- BODY ---
+{"Gi€eld" "\ud83d\udea8\ud83d\udd25"}

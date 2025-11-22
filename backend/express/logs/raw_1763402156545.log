@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 35
+user-agent: Mozilla/5.0 (fuzzer)
+content-type: text/plain
+x-request-id: 6ad4d566-b6b5-4514-8186-64daa4365b2a
+
+--- BODY ---
+{"fied" "\ud83d\uda8\ud83d\udd25"}

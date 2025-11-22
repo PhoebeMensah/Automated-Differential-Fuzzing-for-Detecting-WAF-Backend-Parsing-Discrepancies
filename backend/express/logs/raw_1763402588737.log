@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+accept: text/plain
+content-length: 33
+content-type: application/json;foo=bar
+x-request-id: 32844c26-29c5-4b77-aad5-2fe89cf8cbb3
+
+--- BODY ---
+{"field": "1; DROP TABLE users™,}

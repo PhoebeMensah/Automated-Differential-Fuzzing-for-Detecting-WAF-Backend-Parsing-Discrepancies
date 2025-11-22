@@ -1,0 +1,19 @@
+--- HEADERS ---
+host: bypass-waf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 131
+user-agent: Mozilla/5.0 (fuzzer)
+accept: application/json
+content-type: multipart/form-data; boundary=----MALFORMED----
+extra: 
+x-request-id: 35072abf-6db0-462f-b659-a8bfc52f2316
+
+--- BODY ---
+------¨MALFORMED----
+extra
+Content-Disposition: form-data; name="field"
+
+FUZZ_ATTACK:' OR 1=1 --
+------MALFORMED----
+extra--

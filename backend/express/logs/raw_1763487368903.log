@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 45
+content-type: text/json
+x-request-id: c46e4fb1-fbf2-4c46-9b28-b7c4b92b3f99
+
+--- BODY ---
+{"field": "1; DROPQ TBLE users" /*comment*/ }

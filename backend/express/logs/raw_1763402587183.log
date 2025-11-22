@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 43
+content-type: application/javascript
+x-request-id: bf488fa7-7dd2-4662-9f76-4f9cb6570bd7
+
+--- BODY ---
+["<…cript>alert(document.@ookie)</script>"]

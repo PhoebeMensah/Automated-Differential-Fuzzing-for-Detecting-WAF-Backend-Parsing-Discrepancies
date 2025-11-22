@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 56
+content-type: text/json
+x-request-id: 63a45182-d0eb-40b0-ba19-929a071c0702
+
+--- BODY ---
+{"field": {"nested": "FðUZZ_ATTACK:1; DROPTABLE users"}}

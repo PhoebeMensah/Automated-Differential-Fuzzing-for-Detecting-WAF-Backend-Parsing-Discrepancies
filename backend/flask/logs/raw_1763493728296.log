@@ -1,0 +1,13 @@
+--- HEADERS ---
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.49.1
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 70b3a402-14af-4513-8d58-d15faa8d1145
+Host: localhost:5001
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 38
+
+--- BODY ---
+{"field": "<script>alert(1)</script>"}

@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+x-test: one, two
+content-length: 36
+x-request-id: 959b2cbb-7530-43bd-a5e3-a236918962b1
+
+--- BODY ---
+[object Object]

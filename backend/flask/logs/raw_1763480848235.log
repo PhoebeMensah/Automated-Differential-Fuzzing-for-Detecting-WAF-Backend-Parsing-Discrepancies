@@ -1,0 +1,16 @@
+--- HEADERS ---
+Host: bypass-waf.com
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 88
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept: application/xml
+Content-Type: multipart/form-data; boundary=AaBbCc123
+X-Request-Id: 619e2ea5-f6a7-4c24-a0bf-4f58228201f8
+
+--- BODY ---
+--AaBbCc123ö
+Content-Dispositi=n: form-data; name="field"
+
+' OR 1=1#
+--AaBbCc123--

@@ -1,0 +1,10 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 36
+Content-Type: application/x-www-form-urlencoded
+X-Request-Id: d69082d5-ff49-433a-ba6f-ffa0d09e0975
+
+--- BODY ---
+{"field" "\ud83d\udea8\ud83d\udd25"}

@@ -1,0 +1,10 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 38
+Content-Type: multipart/form-data; boundary=AaBbCc123
+X-Request-Id: 32019e27-a453-49bc-8bc8-b890299e4605
+
+--- BODY ---
+{"field": "\u0000\u00ff" /*comment*/ }

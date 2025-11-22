@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+x-test: one, two
+content-length: 50
+content-type: application/javascript
+x-request-id: 54550dd7-97c2-4736-b79d-fc8b25f5c980
+
+--- BODY ---
+{"field" "<script>aler(document.cookie)</script>"}

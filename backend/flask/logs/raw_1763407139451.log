@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 25
+Content-Type: application/x-json
+X-Folded: start folded-value
+X-Request-Id: a4e0c888-00e6-4c3a-98d1-b09eeddafc2b
+
+--- BODY ---
+{"field": "normal-value"}

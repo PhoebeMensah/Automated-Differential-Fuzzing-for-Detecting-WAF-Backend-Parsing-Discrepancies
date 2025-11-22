@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  # Nginx / ModSecurity WAF
+  nginx:
+    build: .  # Dockerfile in this directory
+    container_name: waf-nginx
+    expose:
+      - "80"               # internal only now
+    volumes:
+      - ./nginx/logs:/var/log/nginx
+    networks:
+      - waf-net
+
+  # Normalizer in front of the WAF
+  normalizer:
+    build: ./normalizer
+    container_name: waf-normalizer
+    depends_on:
+      - nginx
+    ports:
+      - "8080:8081"        # host:container
+    networks:
+      - waf-net
+
+  # Your Flask app
+  flask:
+    build: ./backend/flask
+    container_name: waf-flask
+    ports:
+      - "5001:5000"
+    volumes:
+      - ./backend/flask/logs:/app/logs
+    networks:
+      - waf-net
+
+  # Your Express app
+  express:
+    build: ./backend/express
+    container_name: waf-express
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./backend/express/logs:/usr/src/app/logs
+    networks:
+      - waf-net
+
+networks:
+  waf-net:
+    driver: bridge

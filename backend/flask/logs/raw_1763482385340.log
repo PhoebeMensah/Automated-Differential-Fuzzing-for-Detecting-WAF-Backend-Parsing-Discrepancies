@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: bypass-waf.com
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 86
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Type: text/xml
+X-Request-Id: 17a9035d-8cf8-4917-b7eb-7c2b1d86da69
+
+--- BODY ---
+<?xml vesion='1.0'?><root><field>' UNION SELECT 1, verson(), user() --</field></root>

@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+accept: application/json
+content-length: 44
+content-type: application/x-json
+x-request-id: 53327cba-04fe-47d3-a760-249a5c6057ec
+
+--- BODY ---
+{"field":"FUZZ_ATTACK:1; DROP TABLE usersp,}

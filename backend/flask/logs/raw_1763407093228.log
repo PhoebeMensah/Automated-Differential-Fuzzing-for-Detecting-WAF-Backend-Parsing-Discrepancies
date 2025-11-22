@@ -1,0 +1,10 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 29
+Content-Type: application/javascript
+X-Request-Id: 4f1ad55c-0e0e-436f-ad6e-2755cfd3de71
+
+--- BODY ---
+2345678901234567890123456û890

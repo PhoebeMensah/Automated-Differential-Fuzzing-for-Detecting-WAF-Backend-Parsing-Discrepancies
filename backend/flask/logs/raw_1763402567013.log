@@ -1,0 +1,12 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept: application/json
+Content-Length: 56
+Content-Type: text/json
+X-Folded: start folded-value
+X-Request-Id: c05d829d-ff11-45a9-b35a-5f24b2a3acd1
+
+--- BODY ---
+{"fiQld": {"nested": "123456789012345678901234567890"}}

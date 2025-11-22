@@ -1,0 +1,12 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 16
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept: text/plain
+Content-Type: text/plain
+X-Request-Id: d9520502-9c92-48b2-a799-5f9780c762a1
+
+--- BODY ---
+../Ï./etc/passwd

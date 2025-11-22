@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 100
+content-type: application/xml
+x-request-id: efc6f0eb-95e1-46e0-a372-b98095f8f2b4
+
+--- BODY ---
+<?xml version='1.0'?><root><field>FUZZ_ATTACK:<script>alert(¢doument.cookie)</script></field></root>

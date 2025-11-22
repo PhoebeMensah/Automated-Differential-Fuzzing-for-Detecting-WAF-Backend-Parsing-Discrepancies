@@ -1,0 +1,9 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com,duplicate-host-header
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Length: 56
+X-Request-Id: 6c07d710-7089-4d29-85bf-2c700f95dd25
+
+--- BODY ---
+{"field": "123456789012345678901234567890" /*comment*/ }

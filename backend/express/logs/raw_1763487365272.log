@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 22
+content-type: multipart/form-data; boundary=AaBbCc123
+x-request-id: 6cf696a3-6782-454e-9115-7166f244a3b2
+
+--- BODY ---
+["1; DROP TABLE sers"]

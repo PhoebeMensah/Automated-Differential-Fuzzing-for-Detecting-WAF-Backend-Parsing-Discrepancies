@@ -1,0 +1,10 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com,duplicate-host-header
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer) folded-part
+X-Test: one,two
+Content-Length: 22
+X-Request-Id: b1c4d9a2-f7e3-405d-9e09-bbbe7c4dc99d
+
+--- BODY ---
+field=../../etc/passwd

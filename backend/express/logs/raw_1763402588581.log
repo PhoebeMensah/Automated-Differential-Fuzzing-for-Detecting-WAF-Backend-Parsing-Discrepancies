@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 2
+user-agent: Mozilla/5.0 (fuzzer)
+x-request-id: 6f23095e-cdac-4874-b363-e02969b0c955
+
+--- BODY ---
+[object Object]

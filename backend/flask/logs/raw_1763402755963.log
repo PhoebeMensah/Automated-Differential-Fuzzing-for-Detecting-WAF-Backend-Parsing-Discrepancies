@@ -1,0 +1,15 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com,duplicate-host-header
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept: text/plain
+Content-Length: 145
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+X-Request-Id: ca2713ef-ab4a-4886-8d99-0c56c7e83317
+
+--- BODY ---
+------WebKitFormBoundary7MA4YWxkTrZuªgW
+Content-Disposition: form-data; name="field"
+
+normal-value
+------WebKitFormBoundary7MA4YWxkTrZu0gW-

@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 30
+content-type: text/json
+x-request-id: 736bd01e-b789-4932-9d70-605aba0f421e
+
+--- BODY ---
+{"field": "1; DROP TABE users"

@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 53
+user-agent: Mozilla/5.0 (fuzzer)
+content-type: text/plain
+x-request-id: c2656754-5357-4398-8695-34e8d4b40f2b
+
+--- BODY ---
+{"field‡: "<scriptalert(document.cookie)</script>",}

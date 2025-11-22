@@ -1,0 +1,12 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept: */*
+Content-Length: 25
+Content-Type: application/json;foo=bar
+X-Folded: start folded-value
+X-Request-Id: ed95a38b-a200-4a00-b274-cba8ead7f0b5
+
+--- BODY ---
+{"field": "nrmal-value"}

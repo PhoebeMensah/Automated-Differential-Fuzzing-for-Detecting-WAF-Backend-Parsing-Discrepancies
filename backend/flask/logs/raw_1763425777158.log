@@ -1,0 +1,16 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+Connection: close
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept: text/plain
+Content-Length: 127
+Content-Type: multipart/form-data; boundary=----MALFORMED----
+
+--- BODY ---
+------MALFORMED----
+extra
+Content-Disposition: form-data; name="field"
+
+1; DROP TABLE users
+----·-MALFORMED----
+extra--

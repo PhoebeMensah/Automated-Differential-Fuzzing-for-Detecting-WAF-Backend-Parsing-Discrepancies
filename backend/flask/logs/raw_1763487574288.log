@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: bypass-waf.com
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 65
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Type: text/xml
+X-Request-Id: e4e2149d-a343-466a-9cc5-80d5ce304fd6
+
+--- BODY ---
+<?xml version="1.0"?><root><field>normal-xml-value</field></rootŠ

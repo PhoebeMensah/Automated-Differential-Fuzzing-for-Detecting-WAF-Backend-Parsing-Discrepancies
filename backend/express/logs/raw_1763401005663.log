@@ -1,0 +1,17 @@
+--- HEADERS ---
+host: duplicate-host-header
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 89
+user-agent: Mozilla/5.0 (fuzzer)
+accept-encoding: gzip, deflate, zstd
+accept: */*
+content-type: multipart/form-data; boundary=----AaAa----
+x-request-id: c057b170-0bff-4fcb-b13b-82a47fa8e2e1
+
+--- BODY ---
+------AaAa----
+Content-Disposition: form-data; name="field"
+
+False
+------AaAa------

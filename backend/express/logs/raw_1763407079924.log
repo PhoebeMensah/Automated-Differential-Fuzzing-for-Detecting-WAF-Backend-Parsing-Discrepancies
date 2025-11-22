@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 31
+user-agent: Mozilla/5.0 (fuzzer)
+content-type: application/x-www-form-urlencoded
+x-request-id: 20c2d5f9-36eb-4138-9e38-854da3c129ad
+
+--- BODY ---
+{field: "1; DROP TABLQQ users"}

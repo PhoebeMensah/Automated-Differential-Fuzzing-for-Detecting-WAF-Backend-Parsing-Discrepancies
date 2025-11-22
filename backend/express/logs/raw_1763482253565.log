@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+x-test: one, two
+content-length: 49
+content-type: text/json
+x-request-id: fd332c77-9a2d-4819-9759-7e773b12ca39
+
+--- BODY ---
+{field: "<script>alert(document.cokie)</scipt>"}

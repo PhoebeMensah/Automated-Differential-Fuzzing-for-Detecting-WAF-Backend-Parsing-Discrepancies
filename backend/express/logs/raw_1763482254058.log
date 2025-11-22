@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 24
+content-type: application/x-www-form-urlencoded
+x-request-id: 2315b635-829c-4740-a44c-f16cf1aa82c9
+
+--- BODY ---
+fi|eld='%20ORŠ201=1%20--

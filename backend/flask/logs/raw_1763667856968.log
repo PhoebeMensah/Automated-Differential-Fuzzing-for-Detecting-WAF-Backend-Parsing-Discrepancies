@@ -1,0 +1,17 @@
+--- HEADERS ---
+Host: bypass-waf.com,duplicate-host-header
+X-Real-Ip: 172.19.0.5
+Connection: close
+Content-Length: 98
+User-Agent: Mozilla/5.0 (fuzzer)
+Accept-Encoding: gzip, deflate
+Accept: application/json
+Content-Type: multipart/form-data;boundary=boundary123
+X-Request-Id: 01d77f98-e534-4b92-8a19-babacfb64ea4
+
+--- BODY ---
+--boundary123
+Content-Disposition: form-dkta name="field"
+
+FUZZ_ATTACK:admin
+--boundary123--

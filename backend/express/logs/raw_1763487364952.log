@@ -1,0 +1,12 @@
+--- HEADERS ---
+host: bypass-waf.com
+x-real-ip: 172.19.0.1
+connection: close
+content-length: 17
+user-agent: Mozilla/5.0 (fuzzer)
+x-test: one, two
+content-type: multipart/form-data; boundary=boundary123
+x-request-id: bdd313cb-6e0b-48f3-a6c9-d2fde135f600
+
+--- BODY ---
+{"fiedld" "admin"

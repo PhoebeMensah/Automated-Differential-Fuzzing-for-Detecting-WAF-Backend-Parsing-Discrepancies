@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 38
+content-type: application/json;foo=bar
+x-request-id: e0feb9ce-2da0-4486-afcd-74e3756e4cad
+
+--- BODY ---
+{"field": ["FUZZ_ATTACK:' OR 1=1 --"]}

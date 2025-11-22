@@ -1,0 +1,11 @@
+--- HEADERS ---
+Host: waf.mytargetwaf.com
+X-Real-Ip: 172.19.0.1
+Connection: close
+Content-Length: 26
+User-Agent: Mozilla/5.0 (fuzzer)
+Content-Type: text/plain
+X-Request-Id: 1fa01c54-9051-48a3-89e7-656b2534a282
+
+--- BODY ---
+{fie+d: "../../etc/psswd"}

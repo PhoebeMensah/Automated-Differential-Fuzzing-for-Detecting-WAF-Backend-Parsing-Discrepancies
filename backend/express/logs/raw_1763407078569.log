@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 22
+content-type: application/x-json
+x-request-id: 23ced071-bdf4-4609-bcf5-df55fdcc826e
+
+--- BODY ---
+["1; DROP TABL users“]

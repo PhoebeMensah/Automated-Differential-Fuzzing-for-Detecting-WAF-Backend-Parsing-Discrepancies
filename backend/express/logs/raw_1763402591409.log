@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 1
+content-type: multipart/form-data; boundary=----AaAa----
+x-request-id: 8328fd07-08eb-408d-b4ec-6ac6fb098b7c
+
+--- BODY ---
+}

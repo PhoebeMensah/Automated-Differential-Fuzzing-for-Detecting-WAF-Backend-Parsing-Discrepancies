@@ -1,0 +1,11 @@
+--- HEADERS ---
+host: waf.mytargetwaf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+x-test: one, two
+content-length: 15
+content-type: text/json
+x-request-id: bb17d6b4-da22-44e3-a1e6-121866c4306d
+
+--- BODY ---
+"field": "šnf"}

@@ -1,0 +1,10 @@
+--- HEADERS ---
+host: bypass-waf.com
+connection: close
+user-agent: Mozilla/5.0 (fuzzer)
+content-length: 12
+content-type: application/javascript
+x-request-id: 4827fdab-281a-4942-b3f2-92ccc4fe1686
+
+--- BODY ---
+normaÿl-vale
